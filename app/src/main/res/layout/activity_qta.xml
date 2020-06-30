@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/activity_test"
+    android:background="@drawable/drbg_list">
+    <TextView
+        android:text="New Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label2"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+    <CheckBox
+        android:id="@+id/qta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="New Text"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#dddddd"/>
+    <CheckBox
+        android:id="@+id/qtb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="New Text"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#dddddd"/>
+    <CheckBox
+        android:id="@+id/qtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="New Text"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#dddddd"/>
+    <CheckBox
+        android:id="@+id/qtd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="New Text"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#dddddd"/>
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="241dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="2dip"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/bt_qt"
+        android:layout_width="241dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="2dip"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:text="New Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/bt_timeReq" />
+    </LinearLayout>
+</LinearLayout>

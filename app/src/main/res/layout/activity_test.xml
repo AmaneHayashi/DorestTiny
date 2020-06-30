@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drbg_list"
+    android:weightSum="1"
+    tools:context="com.example.icetouch.dorestii.TestActivity">
+    <RelativeLayout
+        android:id="@+id/title_bar_doris"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/transparent">
+        <TextView
+            android:id="@+id/tv_main_title_doris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <TextView
+        android:text="New Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_weight="0.05" />
+    <TextView
+        android:text="New Text"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/reminder"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_weight="0.04" />
+    <Button
+        android:id="@+id/bt_entrance"
+        android:layout_width="241dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="2dip"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+</LinearLayout>

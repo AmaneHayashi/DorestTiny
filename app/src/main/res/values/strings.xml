@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dorest(QJIN)</string>
+    <string name="word" formatted="false">(1)本次考试为 %s，该部分共 %d 题。考试时间 %d 分钟，从进入题目开始计时。\n
+        (2)考试过程中不允许退出，否则将取消考试机会。答题完毕后，可通过成绩单查看答题结果。\n
+        (3)题型默认为单项选择题（多选题会标出）。确认进入下一题后不能返回检查，请谨慎答题。</string>
+    <string name="sum" formatted="false">今天是第 %d 天，你共作答了 %d 部分，%d 题，正确率、得分情况与用时状况分别为：\n
+        （1表示正确，0表示错误。X表示未完成）\n\n</string>
+    <string name="each" formatted="false">
+         %s(%s) ：\n共 %d 题，正确 %d 题，正确率 %d%% ，用时 %d 分 %d 秒。
+         \n得分情况： %s \n你的答案 :  %s \n参考答案 :  %s \n\n</string>
+    <string name="time" formatted="false">当前考试剩余时间：%d 分 %d 秒。</string>
+    <string name="reminder" formatted="false">考试开始，本次考试时长：%d 分钟。</string>
+    <string name="timeWarn"> 剩余时间不足 5 分钟，请抓紧时间！</string>
+</resources>
